@@ -1,0 +1,19 @@
+# --- Lógica de activación ---
+threshold_kills: 3           # Muertes PvP necesarias para activar la protección
+window_minutes: 30           # Ventana de tiempo para contar muertes
+protection_minutes: 15       # Duración de la protección (en minutos)
+
+# --- Mensajes ---
+on_activate_message: "&aTienes un escudo protector de PvP por {minutes} minutos."
+on_expire_message: "&cTu escudo protector ha terminado."
+on_manual_off_message: "&6Protección PvP desactivada manualmente."
+on_no_protection_message: "&cNo tienes protección activa."
+
+# --- Daño ---
+disable_damage_both_ways: true   # true = bloquea el daño si atacante o víctima están protegidos
+
+# --- BossBar ---
+enable_bossbar: true
+bossbar_title: "&aEscudo PvP: {mm}:{ss}"
+bossbar_color: "GREEN"           # GREEN, BLUE, RED, YELLOW, PURPLE, WHITE, PINK
+bossbar_style: "SEGMENTED_10"    # SOLID, SEGMENTED_6, SEGMENTED_10, SEGMENTED_12, SEGMENTED_20

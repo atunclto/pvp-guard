@@ -1,0 +1,13 @@
+name: PvPGuard
+version: 1.0.0
+main: com.daniel.pvpguard.PvPGuardPlugin
+api-version: '1.21'
+author: Daniel
+commands:
+  proteger:
+    description: Gestiona tu protección PvP
+    usage: /proteger off | /proteger test [segundos]
+    permission: pvpguard.use
+permissions:
+  pvpguard.use:
+    default: true
