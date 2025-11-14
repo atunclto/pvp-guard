@@ -23,5 +23,3 @@ El JAR quedará en `target/pvp-guard-1.0.0-all.jar`.
 ## Notas
 - Se consideran muertes PvP cuando `PlayerDeathEvent` tiene `getKiller() != null` (otro jugador).
 - El daño PvP se bloquea en `EntityDamageByEntityEvent`.
-# AutoHarvest
-# pvp-guard
